@@ -141,7 +141,7 @@ resource "aws_lb_listener" "https" {
 # Output the ALB DNS name
 output "jenkins_url" {
   description = "URL to access Jenkins"
-  value       = "https://jenkins-aws.gatheringidea.xyz"
+  value       = "https://jenkins-aws.example.xyz"
 }
 
 # Output ALB DNS name for DNS configuration
