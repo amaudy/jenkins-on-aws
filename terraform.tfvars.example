@@ -1,0 +1,3 @@
+# Jenkins admin credentials
+jenkins_admin_user     = "admin"
+jenkins_admin_password = "YourSecurePassword123!" # Replace with your secure password
