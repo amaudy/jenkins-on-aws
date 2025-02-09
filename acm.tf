@@ -1,6 +1,6 @@
 # Request an ACM certificate
 resource "aws_acm_certificate" "jenkins" {
-  domain_name       = "jenkins-aws.gatheringidea.xyz"
+  domain_name       = "your-domain"
   validation_method = "DNS"
 
   lifecycle {
